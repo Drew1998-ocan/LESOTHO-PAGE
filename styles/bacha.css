@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 3% 10%;
+  background-color: #f1efef;
+}
+
+section h1 {
+  color: #148d93;
+}
+
+section ul {
+  list-style: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  line-height: 1.5;
+}
+
+section footer {
+  padding: 3% 10%;
+  height: 100px;
+  background-color: #414e4a;
+}
+/*# sourceMappingURL=bacha.css.map */

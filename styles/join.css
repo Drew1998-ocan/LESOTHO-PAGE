@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
+
+#join {
+  background-color: #f6f6f8;
+  padding: 3% 10%;
+}
+
+#join p {
+  font-weight: 200;
+  letter-spacing: 1.5;
+}
+
+#join h1 {
+  color: #088177;
+  text-align: center;
+}
+
+#join h1::after {
+  content: " ";
+  background-color: #148d93;
+  width: 200px;
+  height: 20px;
+  border: 2px;
+}
+
+#join h3 {
+  color: #ffcb19;
+}
+
+#join .header {
+  text-align: center;
+}
+
+#join .para {
+  background-color: #e4cd81;
+  width: auto;
+  height: auto;
+  border-radius: 0 10px 10px 10px;
+  padding: 10px;
+}
+
+#join .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#join img {
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+}
+
+#join1 {
+  padding: 3% 10%;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  left: 10px;
+}
+
+form {
+  padding: 10px;
+  background-color: #e4cd81;
+  border-radius: 0 20px 0 20px;
+}
+
+form .center {
+  position: relative;
+  left: 25%;
+}
+
+form h3 {
+  text-align: center;
+  color: #148d93;
+}
+
+form .form1 {
+  margin: 10px 10px 10px 0;
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  text-decoration: none;
+  border-style: none;
+  padding: 0 0 0 10px;
+  -webkit-box-shadow: 0px 2px 15px -2px #222627;
+          box-shadow: 0px 2px 15px -2px #222627;
+}
+
+form .register {
+  position: relative;
+  left: 19%;
+  text-align: center;
+  color: #f1efef;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 20px;
+  border-style: none;
+  height: 40px;
+  outline: none;
+  background-color: #088177;
+}
+
+form .register:hover {
+  background-color: rgba(255, 254, 254, 0.74);
+  color: #088177;
+  border: 4px solid #088177;
+}
+
+@media (max-width: 1028px) {
+  .register {
+    position: relative;
+    right: 50%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=join.css.map */

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$primaryBtn: #088177;
+$font-family: "Poppins",
+sans-serif;
+$colorText: rgb(241,
+239,
+239);
+$colorShadow: rgb(143,
+138,
+138);
+$browsercolor: rgba(255,
+254,
+254,
+0.74);
+$colorSup: #148d93;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+#join {
+    background-color: #f6f6f8;
+    padding: 3% 10%;
+    p {
+        font-weight: 200;
+        letter-spacing: 1.5;
+    }
+    h1 {
+        color: $primaryBtn;
+        text-align: center;
+    }
+    h1::after {
+        content: " ";
+        background-color: $colorSup;
+        width: 200px;
+        height: 20px;
+        border: 2px;
+    }
+    h3 {
+        color: #ffcb19;
+    }
+    .header {
+        text-align: center;
+    }
+    .para {
+        background-color: #e4cd81;
+        width: auto;
+        height: auto;
+        border-radius: 0 10px 10px 10px;
+        padding: 10px;
+    }
+    .image {
+        display: flex;
+    }
+    img {
+        border-radius: 50%;
+        margin: 0 5px 0 0;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+#join1 {
+    padding: 3% 10%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    left: 10px;
+}
+
+form {
+    padding: 10px;
+    background-color: #e4cd81;
+    border-radius: 0 20px 0 20px;
+    .center {
+        position: relative;
+        left: 25%;
+    }
+    h3 {
+        text-align: center;
+        color: $colorSup;
+    }
+    .form1 {
+        margin: 10px 10px 10px 0;
+        width: 50%;
+        height: 30px;
+        border-radius: 10px;
+        outline: none;
+        text-decoration: none;
+        border-style: none;
+        padding: 0 0 0 10px;
+        box-shadow: 0px 2px 15px -2px rgb(34, 38, 39);
+    }
+    .register {
+        // box-shadow: 0 5px 10px 0 rgb(34, 38, 39);
+        position: relative;
+        left: 19%;
+        text-align: center;
+        color: $colorText;
+        font-size: 16px;
+        width: 150px;
+        border-radius: 20px;
+        border-style: none;
+        height: 40px;
+        outline: none;
+        background-color: $primaryBtn;
+        &:hover {
+            background-color: $browsercolor;
+            color: $primaryBtn;
+            border: 4px solid $primaryBtn;
+        }
+    }
+}
+
+@media (max-width:1028px) {
+    .register {
+        position: relative;
+        right: 50%;
+        text-align: center;
+    }
+}

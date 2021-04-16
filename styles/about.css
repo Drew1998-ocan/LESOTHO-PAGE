@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#about {
+  background-image: url(/images/hack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 200px 0 0 0;
+  padding: 3% 10%;
+  font-family: poppins;
+}
+
+#about h1 {
+  text-align: center;
+  color: #088177;
+}
+
+#about h3 {
+  color: #cfa414;
+}
+
+#about .para {
+  background-color: #e4cd81;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#about .para p a {
+  text-decoration: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #148d93;
+}
+
+#about .para p a:hover {
+  color: #f6f6f8;
+}
+/*# sourceMappingURL=about.css.map */

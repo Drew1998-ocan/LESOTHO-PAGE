@@ -1,0 +1,82 @@
+/* button {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+}
+
+button:hover {
+    background-color: rgb(34, 145, 99);
+}
+
+div {
+    background-color: rgb(10, 124, 109);
+    width: 200px;
+    height: 200px;
+    transition-duration: width 9s;
+}
+
+.me {
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+div:hover {
+    width: 900px;
+}*/
+
+.wrapper {
+    width: 600px;
+    height: 400px;
+    background: rgb(180, 51, 51);
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0 0 15px grey;
+}
+
+.base {
+    position: absolute;
+    filter: blur(60px);
+    opacity: 0.8;
+    background-color: crimson;
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(at top left, #f0ace0, transparent), radial-gradient(at top right, #ffa4b2, transparent), radial-gradient(at bottom left, #a7d3f2, transparent);
+}
+
+.one {
+    border-radius: 100%;
+    background-color: #373372;
+    width: 600px;
+    height: 600px;
+    left: -50;
+    top: -300px;
+    z-index: 3;
+}
+
+.two {
+    background-color: #7c336c;
+    width: 500px;
+    height: 800px;
+    bottom: -30;
+    left: -80px;
+}
+
+.three {
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+    bottom: -80px;
+    right: -100px;
+    background-color: #b3588a;
+}
+
+.andrew {
+    position: absolute;
+    bottom: 400px;
+}
